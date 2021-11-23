@@ -1,0 +1,41 @@
+body{
+    background-color: whitesmoke;
+    margin: 0px;
+}
+.header{
+    margin: 0px;
+    border: 3px solid black;
+}
+
+.navbar{
+    background-color: blue;
+}
+.navbar-toggler{
+    background-color: whitesmoke;
+}
+
+body > div > nav{
+    padding-left: 5px;
+}
+
+#navbarTogglerDemo01{
+    width: 200px;
+    border: 2px solid black;
+}
+@media only screen and (max-width:767px) {
+    .header{
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+    }
+    .nbccGamesimg{
+        width: 30%;
+    }
+    #navbarTogglerDemo01::after, ::before{
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    
+}
