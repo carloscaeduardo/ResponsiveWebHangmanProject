@@ -23,13 +23,14 @@ body > div > nav{
     border-bottom: 2px solid black;
     border-top: 0px;
 }
-body > div > div.dropdown.show > div.dropdown-menu.show{
-    transform: translate3d(10px, 30px,0px);
-}
+
 
 #navbarTogglerDemo01{
     width: 200px;
     border: 2px solid black;
+}
+body > div > div.dropdown.show > div.dropdown-menu.show{
+    transform: translate3d(10px, 50px,0px) !important;
 }
 @media only screen and (max-width:767px) {
     .header{
@@ -51,12 +52,27 @@ body > div > div.dropdown.show > div.dropdown-menu.show{
 
     #mainDropdown{
         margin: 10px;
-      
+        
 
     }
     .dropdown{
         background-color: #597eaa;
     }
+    .dropdown-menu{
+        background-color: #dddddd;
+        padding: 0;
+    }
+    .dropdown-menu p{
+        background-color: #93c47d;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .dropdown-menu a:nth-child(even){
+        background-color: #597eaa;
+        
+    }
+
+
     .socialMediaDropdown{
         float:right;
         margin-right: 10px;
@@ -79,7 +95,8 @@ body > div > div.dropdown.show > div.dropdown-menu.show{
         padding-left: 20px; 
         padding-bottom: 0px; 
         margin-bottom: 0px;
-        margin-top: 300px;
+        padding-top: 10%;
+        margin-top: 50%;
         font-size: 2.0em;
     }
     .mainContent h1{
@@ -151,7 +168,9 @@ body > div > div.dropdown.show > div.dropdown-menu.show{
         width: 100%;
         margin-right: 0;
         background-color: #93c47d;
+        height: 20%;
     }
+    
     #advertisementImg1{
         margin-top: 0px; 
         width: 60%;
@@ -175,6 +194,7 @@ body > div > div.dropdown.show > div.dropdown-menu.show{
         display: inline;
         padding-left: 20%;
         padding-right: 20%;
+        box-sizing: border-box;
     }
 }
 
