@@ -32,6 +32,7 @@ body > div > nav{
 body > div > div.dropdown.show > div.dropdown-menu.show{
     transform: translate3d(10px, 50px,0px) !important;
 }
+
 @media only screen and (max-width:767px) {
     .header{
         padding-left: 5%;
@@ -196,8 +197,21 @@ body > div > div.dropdown.show > div.dropdown-menu.show{
         padding-right: 20%;
         box-sizing: border-box;
     }
+    .headerLinks{
+        display:none ;
+    }
 }
 
 @media only screen and (min-width:768px) {
-    
+    #mainDropdown{
+        display: none;
+    }
+    .socialMediaDropdown{
+        float:right;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    .headerLinks{
+        background-color:#597eaa ;
+    }
 }
