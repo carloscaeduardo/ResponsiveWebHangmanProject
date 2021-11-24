@@ -210,8 +210,220 @@ body > div > div.dropdown.show > div.dropdown-menu.show{
         float:right;
         margin-right: 10px;
         margin-top: 10px;
+        display: none;
     }
     .headerLinks{
         background-color:#597eaa ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid black;
+        
+    }
+    .headerLinks a{
+        padding-left: 12%;
+    }
+    .dropdown{
+        border: 0px;
+        padding-bottom: 10px;
+    }
+    #nav-left{
+        display: block;
+        float: left;
+    }
+
+    #nav-left-top10games, #nav-left-rank{
+        margin-top: 10px;
+        width: 200px;
+        background-color: white;
+        padding: 5px;
+        border: solid 2px #597eaa;
+    }
+
+    #nav-left-rank{
+        border: solid 2px #93c47d;
+    }
+
+    #nav-left-top10games-title, #nav-left-rank-title{
+        background-color: #597eaa;
+        padding: 5px;
+        border: solid 2px black;
+        margin-bottom: 5px;
+    }
+
+    #nav-left-rank-title{
+        background-color: #93c47d;
+    }
+
+    #nav-left-top10games-list, #nav-left-rank-list{
+        margin-left: -20px;
+    }
+
+    #nav-left-top10games-list ul{
+        list-style-type: none;
+    }
+
+    #nav-left-rank-list ul{
+        list-style-type: none;
+    }
+
+    .mainContent {
+        float: left;
+        padding-top: 10px;
+        padding-left: 15px;
+        width: calc(100% - 400px);
+    }
+
+    .advertisement{
+        float:left;
+        width: 200px;
+        margin-bottom: 0;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .header{
+        padding-left: 5%;
+        padding-top: 2%;
+        padding-bottom: 3%;
+        background-color: #ededed;
+    }
+    .nbccGamesimg{
+        width: 40%;
+    }
+    #navbarTogglerDemo01::after, ::before{
+        width: 30%;
+    }
+    .socialMediaHeader{
+        font-size: 2.5em;
+        float: right;
+        margin-top: 20px;
+        margin-right: 3%;
+    }
+
+    #mainDropdown{
+        margin: 10px;
+    }
+
+    .dropdown{
+        background-color: #597eaa;
+    }
+
+    .socialMediaDropdown{
+        float:right;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+    .socialMediaDropdown i{
+        font-size: 1.4em;
+        padding-top: 10px;
+        padding-left: 10px;
+        color: whitesmoke;
+    }
+
+    #creators p{
+      margin-bottom: 5px;
+    }
+
+    .mainContent h2 {
+        padding-left: 20px; 
+        padding-bottom: 0px; 
+        margin-bottom: 0px;
+        font-size: 2.0em;
+    }
+
+    .mainContent h1{
+        margin-top: 0px;
+        padding-left: 55px;
+        padding-top: 0px;
+        font-size: 3.0em;
+    }
+
+    .hangmanGame{
+        border: 2px solid black;
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+
+    .letterSelection{
+        width: 40%;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .hangman{
+        width: 55%;
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    .remainingGuesses{
+        margin-left: 5%;
+        margin-top: 3%;
+        width: 30%;
+        box-sizing: border-box;
+        font-size: 1.5em;
+        float: left;
+    }
+
+    .guessedWord{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40%;
+        margin-right: 5%;
+        padding: 2%;
+        box-sizing: border-box;
+        border: 1px solid black;
+    }
+
+    .guessedWord p {
+        font-size: 2.2em;
+    }
+    
+    #advertisementSign{
+        font-size: 0.5em;
+        font: bold;
+        margin-bottom: 0;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+
+    hr{
+        padding: 0;
+        width: 70%;
+        margin: 4px;
+        line-height: 3px;
+    }
+
+    .adBlock{
+        width: 100%;
+        margin-right: 0;
+        background-color: #93c47d;
+    }
+
+    #advertisementImg1{
+        margin-top: 0px; 
+        width: 60%;
+    }
+    
+    #advertisementImg2{
+        display: none;
+    }
+
+    .information{
+        margin-top: 20px;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        float: left;
+        background-color: #597eaa ;
+        border-top: 2px solid black ;
+        border-bottom: 2px solid black;
+    }
+
+    .information li{
+        display: inline;
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }
