@@ -40,6 +40,9 @@ body > div > div.dropdown.show > div.dropdown-menu.show{
         padding-bottom: 3%;
         background-color: #ededed;
     }
+    #nav-left{
+        display:none;
+    }
     .nbccGamesimg{
         width: 40%;
     }
